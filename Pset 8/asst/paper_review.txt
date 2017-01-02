@@ -1,0 +1,28 @@
+Towards Passive 6D Reflectance Field Displays - Review
+Martin Fuchs, Ramesh Raskar, Hans-Peter-Seidel, Hendrik P.A. Lensch
+Reviewer - Matthew Tancik
+
+
+Description:
+This paper describes a technique for creating a display to render a 6D experience using only passive optics. The display allows the viewer to “look around” the displayed object. In addition, the display is back illuminated and reacts to changes illumination direction. For example, it can change the perceived shadows casted by a displayed object. To get the variable illumination, they propose using a 4D reflectance field display. In essence, the display is comprised of many small lenses. These lenses direct the back illuminated light onto a colored transparency. Depending on the the angle of the light, different images are rendered. In order to get the spatially dependent user view, a similar technique using an array of lenses is also used. These spatially dependent images can be packaged into pixels and arranged into a grid. Then the technology for the 4D reflectance display can be compounded with this to create a 6D display. These designs give us an innovative, not necessary inventive, way to create a novel passive display.
+
+
+Clarity of Exposition:
+The exposition is clear in this paper. The introduction clearly explains the problem the researchers are aiming to solve. The four design iterations are presented along with a brief summary. This allows the reader to orient themselves with the process that the researchers took. Then the paper details each iteration in turn. This involves discussing the goals of each iteration, the theory to accomplish the goals, the experimental setup to prove the theory, and finally the results of the experimental setup. The results mention achievements and shortcomings with the method. Solutions to these shortcomings are followed up with in preceding iterations.
+The exposition can be improved by adding more detail. More focus can be put on why different design choices were made. What other methods were considered? What were the advantages and disadvantages? This information could help the reader follow the experimentation. More numeric details along with mentioning relevant equations will help with the quantitative reasoning. For example, when describing design three, the researchers mention that the meso-pixel alignment in the spacial domain will shift. They then say, “However, for a large observation distance and a small micro-pixel size, this is hardly noticeable”. It would have be nice to have numbers along with the qualitative assessments. Otherwise, the paper does a good job explaining how the experiments were performed.
+
+
+Quality of References:
+The paper has good references throughout. The section on related work clear and makes relevant references for the research being discussed. There is however a lack of attribution towards work specific to light variation in holograms. The researcher do however acknowledge this on the website where the paper is published.
+
+
+Reproducibility:
+Reproducibility would require moderate effort. The experimental setups are explained; however, there is a lack of details. They mention that they calculate the ray equations for the lenses of choice; but, this information is not provided. These equations would need to be recalculated in order to reproduce the results. The researchers also do not provide the code used to create the images, but they do provide an outline to the algorithm. Despite these reasons, the primary issue regarding reproducibility is due to the many unmodeled aspects in the experiments. For example, when attempting to get the clearest results, they tried printing with various printers. Duplicating this would be difficult as aspects such as printer settings will produce different results. They have no baseline of measuring the effectiveness of the print. The researchers tweaked many parameters that are hard to reproduce so the overall reproducibility is hindered. However, the results are qualitative, not quantitative so the degree of precision is somewhat arbitrary.
+
+
+Rating:
+3 = Possibly accept, but only if others champion it.
+
+
+Explanation of Rating:
+The results are impressive. The ability to reproducing a three dimensional object on a 2D plane is a result of complex optics and a lot of work. Furthermore the ability of a passive 2D plane to react to both the observer's position and the scene’s lighting is amazing. For this reason, I believe that this paper should be accepted into SIGGRAPH. Despite this, there are some flaws with the paper. In essence, the paper proposes a way to direct light through a series of optics such that the optics present a particular part of an image depending on observer's position. Conceptually this is a simple proposal. The difficult part is solving the equations necessary to determine the lenses needed in a small enclosure. The research team accomplished this; however, the information regarding how is sparse. They give the broad experiment setup, but they do not describe the ray transfer matrices or the other hard work they focused on. In addition, they relied on hacking together solutions without proper analysis to achieve good results. For example, they describe adding a “notebook privacy computer filter” to improve the results. So despite impressive results, the method is not the most elegant. For that reason, I believe a rating of 3 is fair.

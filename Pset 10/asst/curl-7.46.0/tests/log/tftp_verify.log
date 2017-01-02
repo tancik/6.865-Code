@@ -1,0 +1,6 @@
+*   Trying 127.0.0.1...
+* Connected to 127.0.0.1 () port 8997 (#0)
+* set timeouts for state 0; Total 13, retry 4 maxtry 3
+* Connected for receive
+* set timeouts for state 1; Total 13, retry 4 maxtry 3
+* Closing connection 0

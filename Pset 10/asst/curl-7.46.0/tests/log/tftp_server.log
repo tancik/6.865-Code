@@ -1,0 +1,7 @@
+16:50:12.066654 Wrote pid 7871 to .tftp_server.pid
+16:50:12.067345 Running IPv4 version on port UDP/8997
+16:50:13.080269 trying to get file: verifiedserver mode 1
+16:50:13.080320 Are-we-friendly question received
+16:50:13.081208 end of one transfer
+16:50:13.204813 signalled to die
+16:50:13.204997 ========> IPv4 tftpd (port: 8997 pid: 7871) exits with signal (2)

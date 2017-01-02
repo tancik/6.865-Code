@@ -1,0 +1,2 @@
+This text is here to simulate a partly downloaded file to resume
+download on.

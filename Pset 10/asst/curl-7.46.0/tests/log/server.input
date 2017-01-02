@@ -1,0 +1,6 @@
+opcode: 1
+mode: octet
+tsize: 0
+blksize: 512
+timeout: 4
+filename: verifiedserver

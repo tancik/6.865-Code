@@ -1,0 +1,30 @@
+Schedule 0: default schedule runtime 3808.6 ms  throughput 1.07546 megapixels/sec
+
+Schedule 1: root first stage runtime 810.6 ms  throughput 5.05305 megapixels/sec
+
+Schedule 2: tile 20x20+interleave runtime 961.1 ms  throughput 4.26178 megapixels/sec
+Schedule 2: tile 60x20+interleave runtime 927.6 ms  throughput 4.4157 megapixels/sec
+Schedule 2: tile 100x20+interleave runtime 943.2 ms  throughput 4.34266 megapixels/sec
+Schedule 2: tile 140x20+interleave runtime 956.5 ms  throughput 4.28228 megapixels/sec
+Schedule 2: tile 180x20+interleave runtime 885.8 ms  throughput 4.62407 megapixels/sec
+Schedule 2: tile 220x20+interleave runtime 877.8 ms  throughput 4.66621 megapixels/sec
+Schedule 2: tile 260x20+interleave runtime 892.6 ms  throughput 4.58884 megapixels/sec
+Schedule 2: tile 300x20+interleave runtime 913.3 ms  throughput 4.48484 megapixels/sec
+Schedule 2: tile 340x20+interleave runtime 946.5 ms  throughput 4.32752 megapixels/sec
+Schedule 2: tile 380x20+interleave runtime 923.4 ms  throughput 4.43578 megapixels/sec
+Schedule 2: tile 20x60+interleave runtime 815.8 ms  throughput 5.02084 megapixels/sec
+Schedule 2: tile 60x60+interleave runtime 804 ms  throughput 5.09453 megapixels/sec
+Schedule 2: tile 100x60+interleave runtime 809.9 ms  throughput 5.05742 megapixels/sec
+Schedule 2: tile 140x60+interleave runtime 790.6 ms  throughput 5.18088 megapixels/sec
+Schedule 2: tile 180x60+interleave runtime 815.1 ms  throughput 5.02515 megapixels/sec
+Schedule 2: tile 220x60+interleave runtime 793.7 ms  throughput 5.16064 megapixels/sec
+Schedule 2: tile 260x60+interleave runtime 783.7 ms  throughput 5.22649 megapixels/sec
+Schedule 2: tile 300x60+interleave runtime 821 ms  throughput 4.98904 megapixels/sec
+Schedule 2: tile 340x60+interleave runtime 831 ms  throughput 4.929 megapixels/sec
+Schedule 2: tile 380x60+interleave runtime 821.6 ms  throughput 4.98539 megapixels/sec
+Schedule 2: tile 20x100+interleave runtime 811.1 ms  throughput 5.04993 megapixels/sec
+Schedule 2: tile 60x100+interleave runtime 783.9 ms  throughput 5.22516 megapixels/sec
+Schedule 2: tile 100x100+interleave runtime 761.2 ms  throughput 5.38098 megapixels/sec
+Schedule 2: tile 140x100+interleave runtime 770.8 ms  throughput 5.31396 megapixels/sec
+Schedule 2: tile 180x100+interleave runtime 787.5 ms  throughput 5.20127 megapixels/sec
+Schedule 2: tile 220x100+interleave runtime 772.9 ms  throughput 5.29952 megapixels/sec
